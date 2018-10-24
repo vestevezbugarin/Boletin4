@@ -4,7 +4,7 @@ public class Calculo {
 
     private float polbo;
     private float patacas;
-    private int clientes;
+    private int clientes = 0;
 
     public Calculo() {
     }
@@ -44,9 +44,9 @@ public class Calculo {
             auxPolbo /= 2;
             this.clientes++;
         }
-        if (this.clientes > Math.abs(this.patacas)) {
-            this.clientes = (int) this.patacas;
-            return (this.clientes * 3);
+        if (clientes > Math.abs(patacas)) {
+            clientes = (int) patacas;
+            return (clientes * 3);
         }
 
         return (clientes * 3);
