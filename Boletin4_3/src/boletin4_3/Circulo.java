@@ -25,12 +25,12 @@ public class Circulo {
     }
 
     public double calcArea() {
-        double area = this.PI * Math.pow(this.radio, 2);
+        double area = PI * Math.pow(radio, 2);
         return area;
     }
 
     public float calcLonxitude() {
-        float lonxitude = (float) (2 * this.PI * this.radio);
+        float lonxitude = (float) (2 * PI * radio);
         return lonxitude;
     }
 
